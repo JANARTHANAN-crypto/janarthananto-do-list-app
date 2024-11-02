@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Left Side (How it works) */
+.intro-section {
+    background-color: #f2f4ff;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+
+/* Image Container */
+.image-container {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* Text Content */
+.text-content {
+    width: 50%;
+    text-align: left;
+}
+
+.play-icon {
+    font-size: 2rem;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.intro-text {
+    color: #888;
+    margin-bottom: 20px;
+}
+
+.get-started-btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.get-started-btn:hover {
+    background-color: #ff3d30;
+}
+
+/* Right Side (Tasks) */
+.task-section {
+    padding: 40px;
+    width: 50%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header h2 {
+    font-size: 22px;
+}
+
+header p {
+    font-size: 16px;
+    color: #888;
+}
+
+.search-bar {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.settings-icon {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+/* Ongoing Task Section */
+.ongoing-task {
+    margin: 20px 0;
+}
+
+.ongoing-task p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.task-card {
+    background-color: #fff0f1;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-info .progress {
+    font-size: 16px;
+    color: #ff6f61;
+}
+
+.task-info .task-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.task-info .team {
+    font-size: 14px;
+    color: #888;
+}
+
+.deadline {
+    color: #ff6f61;
+    font-weight: bold;
+}
+
+/* Today's Tasks */
+.today-tasks {
+    margin-top: 30px;
+}
+
+.today-tasks h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.task-list {
+    list-style: none;
+}
+
+.task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.task-time {
+    font-weight: bold;
+}
+
+.task-name {
+    color: #555;
+}
+
+.add-task-btn {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.add-task-btn:hover {
+    background-color: #ff3d30;
+}

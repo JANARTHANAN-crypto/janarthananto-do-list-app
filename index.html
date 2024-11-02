@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side Section (How It Works) -->
+        <div class="intro-section">
+            <div class="image-container">
+                <img src="https://img.freepik.com/premium-vector/felt-tip-pen-puts-check-mark-pages-list-concept-isolated_168129-763.jpg" alt="Task Image">
+            </div>
+            <div class="text-content">
+                <div class="play-icon">▶️</div>
+                <p>How it works</p>
+                <h1>Manage Your Everyday Task List</h1>
+                <p class="intro-text">Lorem ipsum dolor sit amet, consectetur sadipscing elit.</p>
+                <button class="get-started-btn">Get Started</button>
+            </div>
+        </div>
+
+        <!-- Right Side Section (Task List) -->
+        <div class="task-section">
+            <header>
+                <h2>Hello Janarthanan Prabhuram</h2>
+                <p>25 tasks are pending</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search tasks...">
+                    <div class="settings-icon">⚙️</div>
+                </div>
+            </header>
+
+            <!-- Ongoing Task Section -->
+            <div class="ongoing-task">
+                <p>Ongoing Task</p>
+                <div class="task-card">
+                    <div class="task-info">
+                        <span class="progress">50%</span>
+                        <span class="task-name">Space App Design</span>
+                        <span class="team">Team Members</span>
+                    </div>
+                    <span class="deadline">12 Days Left</span>
+                    <span class="time">10:00 am to 11:00 pm</span>
+                </div>
+            </div>
+
+            <!-- Today's Tasks -->
+            <div class="today-tasks">
+                <h3>Today's Task</h3>
+                <ul class="task-list" id="task-list">
+                    <li>
+                        <span class="task-time">11:30 AM</span>
+                        <span class="task-name">Meeting with client</span>
+                    </li>
+                    <li>
+                        <span class="task-time">12:45 PM</span>
+                        <span class="task-name">Check Emails</span>
+                    </li>
+                    <li>
+                        <span class="task-time">01:00 PM</span>
+                        <span class="task-name">Lunch with client</span>
+                    </li>
+                </ul>
+                
+                <!-- New Task Input -->
+                <input type="text" id="new-task-input" placeholder="Enter new task">
+                
+                <!-- Add New Task Button -->
+                <button class="add-task-btn" id="add-task-btn">Add New Task</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
